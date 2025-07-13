@@ -1,0 +1,107 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #1e1e1e;
+  padding: 20px 0;
+}
+
+.logo {
+  color: #f39c12;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav ul li {
+  margin-left: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav ul li a:hover {
+  color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+  background: url('casino-bg.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: #f39c12;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background-color: #e67e22;
+}
+
+/* Section */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #f39c12;
+}
+
+.section p {
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer p {
+  font-size: 14px;
